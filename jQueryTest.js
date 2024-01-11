@@ -104,6 +104,24 @@ $(document).ready(function () {
     //     $('.keyPressed').text(x++);
     // });
 
+    // $('.style1').on('click',".b1", function (event) {
+    //     $(event.delegateTarget).css("background-color","cyan");     // delegateTarget means only execute to .b1 class
+    // });
+
+    // $('a').click(function (event) {
+    //     event.preventDefault();                                                 // stop/prevents from link going to url page (here this case link will not work)
+    //     alert('was prevent default called  ' + event.isDefaultPrevented());
+    // });
+
+    // $('.b3').on('click', function (event) {
+    //     $('.par1').text(event.timeStamp);                       // return milli seconds from january 1 st 1970
+    // });
+
+    // $('#txt1').on("keydown", function (event) {
+    //     $('.c3').text(event.which);                 // return ASCII value of last entered character
+    // });
+
+
 
 
 });
