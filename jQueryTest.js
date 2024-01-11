@@ -99,10 +99,10 @@ $(document).ready(function () {
     //     $(this).css("background-color","#FFDEAD");
     // });
 
-    let x = 0;
-    $('#keyEvent').keypress(function () {              // when a key on the keyboard is pressed it increases count                
-        $('.keyPressed').text(x++);
-    });
+    // let x = 0;
+    // $('#keyEvent').keypress(function () {              // when a key on the keyboard is pressed it increases count                
+    //     $('.keyPressed').text(x++);
+    // });
 
 
 
